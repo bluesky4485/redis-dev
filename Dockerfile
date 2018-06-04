@@ -22,4 +22,4 @@ RUN apk add redis
 EXPOSE 6379
 
 # 容器命令执行
-CMD ["redis-server", "--requirepass", "huangke"]
+CMD ["redis-server", "--requirepass", "w4dRpZY6ioXgva4Nhp0y", "--bind", "127.0.0.1"]
